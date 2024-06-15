@@ -25,6 +25,7 @@ async def create_business(
         await business_pydantic.from_tortoise_orm(business_obj)
 
 
+
 register_tortoise(
     app,
     db_url='sqlite://database.sqlite3',
